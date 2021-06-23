@@ -20,11 +20,11 @@ def wishMe():
     hour = int(datetime.datetime.now().hour)
 
     if hour>=0 and hour<12:
-        speak("Good Morning!")
+        speak("Good Morning Babina!")
     elif hour >= 12 and hour<18:
-        speak("Good Afternoon!")
+        speak("Good Afternoon Babina!")
     else:
-        speak("Good Evening!")
+        speak("Good Evening Babina!")
 
     speak("I am Jarvis. Please tell me how i can help you")
 
